@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(160, 183, 226);
+}
+
+.container {
+  width: 600px;
+}
+
+#registrationForm {
+  height: 700px;
+  background-color: aliceblue;
+  border: 1px solid plum;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.form-control {
+  border-radius: 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+.form-group {
+  margin-top: 5%;
+}
+label {
+  margin-left: 10%;
+}
+.error {
+  color: crimson;
+  font-weight: 500;
+  margin-left: 10%;
+}
+.btn {
+  margin-top: 10%;
+  margin-left: 40%;
+}
