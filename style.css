@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(160, 183, 226);
+  background-color: rgb(160, 219, 226);
 }
 h2{
   text-align: center;
@@ -9,7 +9,7 @@ h2{
 }
 #registrationForm {
   height: 700px;
-  background-color: aliceblue;
+  background-color:rgba(255, 255, 255, 0.5) ;
   border: 1px solid plum;
   border-radius: 10px;
   margin-bottom: 2rem;
