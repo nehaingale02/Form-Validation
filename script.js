@@ -17,35 +17,35 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Validate Full Name
         const fullName = document.getElementById('fullName').value;
         if (fullName.length < 5) {
-            document.getElementById('fullNameError').textContent = "Full Name must be at least 5 characters long.";
+            document.getElementById('fullNameError').textContent = "*Full Name must be at least 5 characters long.";
             isValid = false;
         }
 
         // Validate Email
         const email = document.getElementById('email').value;
         if (!email.includes('@')) {
-            document.getElementById('emailError').textContent = "Enter a valid email address.";
+            document.getElementById('emailError').textContent = "*Enter a valid email address.";
             isValid = false;
         }
 
         // Validate Phone Number
         const phone = document.getElementById('phone').value;
         if (phone === "123456789" || phone.length !== 10 || isNaN(phone)) {
-            document.getElementById('phoneError').textContent = "Enter a valid 10-digit phone number.";
+            document.getElementById('phoneError').textContent = "*Enter a valid 10-digit phone number.";
             isValid = false;
         }
 
         // Validate Password
         const password = document.getElementById('password').value;
         if (password === "password" || password === fullName || password.length < 8) {
-            document.getElementById('passwordError').textContent = "Password must be at least 8 characters and should not be 'password' or your full name.";
+            document.getElementById('passwordError').textContent = "*Password must be at least 8 characters and should not be 'password' or your full name.";
             isValid = false;
         }
 
         // Validate Confirm Password
         const confirmPassword = document.getElementById('confirmPassword').value;
         if (password !== confirmPassword) {
-            document.getElementById('confirmPasswordError').textContent = "Passwords do not match.";
+            document.getElementById('confirmPasswordError').textContent = "*Passwords do not match.";
             isValid = false;
         }
 
