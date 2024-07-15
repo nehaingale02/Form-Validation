@@ -1,11 +1,12 @@
 body {
   background-color: rgb(160, 183, 226);
 }
-
+h2{
+  text-align: center;
+}
 .container {
   width: 600px;
 }
-
 #registrationForm {
   height: 700px;
   background-color: aliceblue;
@@ -14,7 +15,6 @@ body {
   margin-bottom: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-
 .form-control {
   border-radius: 30px;
   width: 80%;
@@ -32,6 +32,5 @@ label {
   margin-left: 10%;
 }
 .btn {
-  margin-top: 10%;
-  margin-left: 40%;
+  margin-left: 43%;
 }

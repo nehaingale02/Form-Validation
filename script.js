@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // If all validations pass, show a success alert
         if (isValid) {
             alert('Form submitted successfully!');
-            
         }
     }
 });
