@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Validate Confirm Password
         const confirmPassword = document.getElementById('confirmPassword').value;
         if (password !== confirmPassword) {
-            document.getElementById('confirmPasswordError').textContent = "*8Passwords do not match.";
+            document.getElementById('confirmPasswordError').textContent = "*Passwords do not match.";
             isValid = false;
         }
 
